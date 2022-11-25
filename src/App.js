@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import './App.css';
 import Plan from './Plan';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
-// import { render } from '@testing-library/react';
+
 class App extends Component {
   state = {
     items: [],
